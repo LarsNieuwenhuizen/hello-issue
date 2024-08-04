@@ -3,7 +3,7 @@ const {
   createAzureFunctionV4,
   createProbot,
 } = require("@probot/adapter-azure-functions");
-const probotapp = require("../app");
+const probotapp = require("..");
 
 app.http("probot", {
   methods: ["POST"],
